@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+    background-color: powderblue;
+    color: #214D6E;
+    min-height: 100vh;
+}
+
+.page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+
+.contador{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.botao{
+
+    width: 2em;
+    font-size: 2em;
+    max-height: 2em;
+    color: #F1FDFB;
+    background-color: #214D6E;
+    border-radius: 8px;
+
+}
+
+.display{
+
+    background-color: #F1FDFB;
+    width: 20%;
+    border-radius: 8px;
+    border: 2px solid #80B8C5;
+
+}
+
+.numero{
+
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 50%;
+    color:#214D6E;
+
+}
