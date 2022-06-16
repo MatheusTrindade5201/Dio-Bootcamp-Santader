@@ -29,6 +29,7 @@ body{
     color: #F1FDFB;
     background-color: #214D6E;
     border-radius: 8px;
+    cursor: pointer;
 
 }
 
@@ -41,7 +42,7 @@ body{
 
 }
 
-.numero{
+#numero{
 
     font-size: 1.5em;
     text-align: center;
