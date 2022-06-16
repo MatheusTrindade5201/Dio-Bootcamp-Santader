@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+
+*{
+    list-style: none;
+}
+
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+    background-color: #FEEAD3;
+    color: #78070A;
+    min-height: 100vh;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4em;
+}
+
+.titulo{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+
+}
+
+h1{
+    text-align: center;
+}
+
+h1 img{
+    width: 3rem;
+    text-align: end;
+    margin-left: 1em;
+    
+}
+
+.inclusao{
+
+    display: flex;
+    min-height: 3em;
+    width: 60%;
+    
+}
+
+#tarefa, .botao-incuir{
+    flex: 1;
+}
+
+.botao-incluir{
+    font-size: 1.5em;
+    background-color: #78070A;
+    border: 2px solid #FEEAD3;
+    color: #fff;
+
+}
+
+#tarefa{
+    border: 2px solid #FEEAD3;
+}
+
+input[type=checkbox]:checked + label{
+    text-decoration: line-through;
+    opacity: 0.8;
+    
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+
+}
+
+ul li *{
+    margin-right: 1em;
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+
+
